@@ -1,51 +1,51 @@
 moved {
-    from = talos_client_configuration.controlplane
-    to = module.cluster_zero.talos_client_configuration.controlplane
+  from = talos_client_configuration.controlplane
+  to   = module.cluster_zero.talos_client_configuration.controlplane
 }
 
 moved {
-    from = talos_machine_secrets.machine_secrets
-    to = module.cluster_zero.talos_machine_secrets.machine_secrets
+  from = talos_machine_secrets.machine_secrets
+  to   = module.cluster_zero.talos_machine_secrets.machine_secrets
 }
 
 moved {
-    from = talos_machine_configuration_controlplane.controlplane
-    to = module.cluster_zero.talos_machine_configuration_controlplane.controlplane
+  from = talos_machine_configuration_controlplane.controlplane
+  to   = module.cluster_zero.talos_machine_configuration_controlplane.controlplane
 }
 
 moved {
-    from = talos_machine_configuration_worker.worker
-    to = module.cluster_zero.talos_machine_configuration_worker.worker
+  from = talos_machine_configuration_worker.worker
+  to   = module.cluster_zero.talos_machine_configuration_worker.worker
 }
 
 moved {
-    from = talos_machine_configuration_apply.controlplane
-    to = module.cluster_zero.talos_machine_configuration_apply.controlplane
+  from = talos_machine_configuration_apply.controlplane
+  to   = module.cluster_zero.talos_machine_configuration_apply.controlplane
 }
 
 moved {
-    from = talos_machine_configuration_apply.controlplane
-    to = module.cluster_zero.talos_machine_configuration_apply.controlplane
+  from = talos_machine_configuration_apply.controlplane
+  to   = module.cluster_zero.talos_machine_configuration_apply.controlplane
 }
 
 moved {
-    from = talos_machine_configuration_apply.worker
-    to = module.cluster_zero.talos_machine_configuration_apply.worker
+  from = talos_machine_configuration_apply.worker
+  to   = module.cluster_zero.talos_machine_configuration_apply.worker
 }
 
 moved {
-    from = talos_machine_bootstrap.bootstrap
-    to = module.cluster_zero.talos_machine_bootstrap.bootstrap
+  from = talos_machine_bootstrap.bootstrap
+  to   = module.cluster_zero.talos_machine_bootstrap.bootstrap
 }
 
 moved {
-    from = talos_cluster_kubeconfig.kubeconfig
-    to = module.cluster_zero.talos_cluster_kubeconfig.kubeconfig
+  from = talos_cluster_kubeconfig.kubeconfig
+  to   = module.cluster_zero.talos_cluster_kubeconfig.kubeconfig
 }
 
 moved {
-    from = talos_cluster_kubeconfig.kubeconfig
-    to = module.cluster_zero.talos_cluster_kubeconfig.kubeconfig
+  from = talos_cluster_kubeconfig.kubeconfig
+  to   = module.cluster_zero.talos_cluster_kubeconfig.kubeconfig
 }
 
 module "cluster_zero" {

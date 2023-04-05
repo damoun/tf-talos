@@ -8,6 +8,12 @@
 <h4 align="center">Terraform plan to setup my Talos Linux clusters.</h4>
 
 <p align="center">
+  <a href="https://github.com/damoun/tf-talos/actions/workflows/lint.yml">
+      <img src="https://github.com/damoun/tf-talos/actions/workflows/lint.yml/badge.svg">
+  </a>
+</p>
+
+<p align="center">
   <a href="#getting-started">Getting Started</a> •
   <a href="#get-configurations">Get Configuration</a>
 </p>
