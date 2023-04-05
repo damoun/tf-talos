@@ -1,0 +1,11 @@
+cluster:
+  discovery:
+    enabled: true
+    registries:
+      kubernetes:
+        disabled: true
+      service: {}
+machine:
+  network:
+    kubespan:
+      enabled: true
