@@ -4,6 +4,11 @@ variable "cluster_name" {
   default     = "cluster-0"
 }
 
+variable "vip_address" {
+  description = "A Virtual IP address to reach the control plane"
+  type        = string
+}
+
 variable "node_data" {
   description = "A map of node data"
   type = object({

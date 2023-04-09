@@ -23,6 +23,9 @@ resource "talos_machine_configuration_apply" "controlplane" {
       hostname     = each.value.hostname
       install_disk = each.value.install_disk
     }),
+    templatefile("${path.module}/templates/vip.yaml.tmpl", {
+      vip_address = var.vip_address
+    }),
     file("${path.module}/files/cp-scheduling.yaml"),
     file("${path.module}/files/kubespan.yaml")
   ]
